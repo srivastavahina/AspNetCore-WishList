@@ -8,7 +8,7 @@ namespace WishList.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContext options) : base(options)
+        public ApplicationDbContext(DbContext options) : base()
         { 
         
         }
